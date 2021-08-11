@@ -18,7 +18,7 @@ Para instalar este proyecto nesesitas:
 - Un editor de codigo ejmplo Visual Studio Code.  👉 [Descarga](https://code.visualstudio.com/ "Descarga")
 - composer instalado.   👉 [Descarga](https://getcomposer.org/ "Descarga")
 -  XAMPP instalado. (puedes utilizar otro si gustas).  👉 [Descarga](https://www.apachefriends.org/es/download.html "Descarga")
-- Utilizar el proyecto en Android desde este repositorio   👉 [Repositorio](https://github.com/lem01/Prueba-de-conceptos "Repo") o Utilzar solamente Postman para probar la  API.
+- Utilizar el proyecto en Android desde este repositorio   👉 [Repositorio](https://github.com/lem01/Consumo-de-API-Blocpost "Repo") o Utilzar solamente Postman para probar la  API.
 - Utilizar Postman (O solo puedes usar El proyecto Android)   👉 [Descarga](https://www.postman.com/downloads/ "Postman")
 ------------
 ### Pasos para utilizar el proyecto
