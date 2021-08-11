@@ -1,0 +1,250 @@
+{
+	"info": {
+		"_postman_id": "20a0a46a-03fb-4128-b2e8-1abace87df50",
+		"name": "blocpost",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "all post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/web-api/public/api/obtenerPosts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"web-api",
+						"public",
+						"api",
+						"obtenerPosts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "0",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "titulo",
+							"value": "segundo ",
+							"type": "text"
+						},
+						{
+							"key": "imagen",
+							"type": "file",
+							"src": "/C:/Users/lem/OneDrive/Imágenes/descarga.jpg"
+						},
+						{
+							"key": "descripcion",
+							"value": "esta es una descripcion",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/web-api/public/api/guadarPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"web-api",
+						"public",
+						"api",
+						"guadarPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "0",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "titulo",
+							"value": "segundo ",
+							"type": "text"
+						},
+						{
+							"key": "imagen",
+							"type": "file",
+							"src": "/C:/Users/lem/OneDrive/Imágenes/descarga.jpg"
+						},
+						{
+							"key": "descripcion",
+							"value": "esta es una descripcion",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/web-api/public/api/actualizarPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"web-api",
+						"public",
+						"api",
+						"actualizarPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "prueba subir imagen",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/lem/OneDrive/Imágenes/modelo en cascada.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/web-api/public/api/subirImagen",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"web-api",
+						"public",
+						"api",
+						"subirImagen"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/web-api/public/api/eliminarPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"web-api",
+						"public",
+						"api",
+						"eliminarPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ver imagen",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/web-api/public/uploads/images/045259-oip.jpg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"web-api",
+						"public",
+						"uploads",
+						"images",
+						"045259-oip.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert sin imagen",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "titulo",
+							"value": "sin imagen",
+							"type": "text"
+						},
+						{
+							"key": "imagen",
+							"value": "sin imagen",
+							"type": "text"
+						},
+						{
+							"key": "descripcion",
+							"value": "des sin imagen",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/web-api/public/api/guadarPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"web-api",
+						"public",
+						"api",
+						"guadarPost"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
